@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <NavBar />
+    <LandingPage />
+    <ArticlePage />
+    <UserReview />
+    <DownloadApp />
+    <FooterPage />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+import NavBar from './components/navbar/NavBar.vue';
+import LandingPage from './components/LandingPage/LandingPage.vue';
+import ArticlePage from './components/Pages/ArticlePage.vue';
+import UserReview from './components/Pages/UserReview.vue';
+import DownloadApp from './components/Pages/DownloadApp.vue';
+import FooterPage from './components/Pages/FooterPage.vue';
+  export default {
+    name: "App",
+    components: { NavBar, LandingPage, ArticlePage, UserReview, DownloadApp, FooterPage }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
 </style>
