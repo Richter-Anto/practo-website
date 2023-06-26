@@ -6,7 +6,7 @@
     <UserReview />
     <DownloadApp />
     <FooterPage />
-  </v-app>
+  </v-app> 
 </template>
 
 <script>
