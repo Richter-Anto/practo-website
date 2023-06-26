@@ -9,7 +9,7 @@ export default new VueRouter({
       component: AllPages,
     },
     {
-      path: "/index",
+      path: "/index", 
       component: AllPages,
     },
   ],
