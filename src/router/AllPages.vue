@@ -19,7 +19,7 @@ import FooterPage from "../components/Pages/FooterPage.vue";
 export default {
   name: "AllPages",
   components: {
-    NavBar,
+    NavBar, 
     LandingPage,
     ArticlePage,
     UserReview,
